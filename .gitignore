@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.env
+*.log
+public/uploads/*
+!public/uploads/.gitkeep
+next-env.d.ts
+Claude outputs

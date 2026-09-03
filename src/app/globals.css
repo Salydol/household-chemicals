@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-bold tracking-tight;
+  }
+  ::selection {
+    @apply bg-brand-100 text-brand-900;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-site px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold transition-colors
+           disabled:pointer-events-none disabled:opacity-60 focus-visible:outline-none
+           focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2;
+  }
+  .btn-md { @apply h-11 px-5; }
+  .btn-sm { @apply h-9 px-3.5 text-[13px]; }
+  .btn-lg { @apply h-12 px-6 text-[15px]; }
+
+  .btn-primary { @apply btn bg-brand-700 text-white hover:bg-brand-800; }
+  .btn-outline { @apply btn border border-line bg-white text-ink hover:border-brand-300 hover:text-brand-700; }
+  .btn-ghost   { @apply btn text-ink-muted hover:bg-surface hover:text-ink; }
+  .btn-whatsapp{ @apply btn bg-whatsapp text-white hover:bg-whatsapp-dark; }
+  .btn-danger  { @apply btn bg-red-600 text-white hover:bg-red-700; }
+
+  .card { @apply rounded-xl border border-line bg-white shadow-card; }
+
+  .input {
+    @apply h-11 w-full rounded-lg border border-line bg-white px-3.5 text-sm text-ink
+           placeholder:text-ink-soft focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-100;
+  }
+  .textarea { @apply input h-auto py-2.5 leading-relaxed; }
+  .label { @apply mb-1.5 block text-[13px] font-semibold text-ink; }
+
+  .badge {
+    @apply inline-flex items-center rounded-md px-2 py-1 text-[11px] font-bold leading-none text-white;
+  }
+
+  .section-title { @apply text-2xl font-bold tracking-tight sm:text-[28px]; }
+}
+
+/* Скрыть стрелки у number-инпутов */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type='number'] { -moz-appearance: textfield; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
