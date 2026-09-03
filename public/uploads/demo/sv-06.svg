@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0533D"/><stop offset="100%" stop-color="#8E2A1A"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8E2A1A"/><stop offset="100%" stop-color="#E0533D"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#F7F8F9"/>
+  <ellipse cx="300" cy="492" rx="150" ry="20" fill="#0D3620" opacity=".07"/>
+  <circle cx="300" cy="300" r="168" fill="url(#g)" opacity=".14"/>
+  <circle cx="300" cy="300" r="130" fill="#fff"/>
+  <g stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="228" y="252" width="144" height="96" rx="10"/>
+    <path d="M228 276h144M228 324h144"/>
+    <path d="M244 348v18M300 348v18M356 348v18"/>
+  </g>
+  <text x="300" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9AA1A9">Ковры</text>
+</svg>

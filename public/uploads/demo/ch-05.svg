@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00A3A3"/><stop offset="100%" stop-color="#046363"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#046363"/><stop offset="100%" stop-color="#00A3A3"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#F7F8F9"/>
+  <ellipse cx="300" cy="492" rx="150" ry="20" fill="#0D3620" opacity=".07"/>
+  <path d="M188 214c0-14 12-24 26-22l186 18c14 1 24 13 24 27v206c0 15-13 27-28 26l-186-14c-13-1-22-12-22-25V214Z" fill="url(#g)"/>
+  <path d="M214 192l186 18-30 26-158-14z" fill="#fff" opacity=".3"/>
+  <rect x="210" y="282" width="176" height="128" rx="10" fill="#fff" opacity=".92"/>
+  <rect x="230" y="306" width="136" height="13" rx="6.5" fill="#C9CED3"/>
+  <rect x="230" y="332" width="94" height="10" rx="5" fill="#DDE1E4"/>
+  <rect x="230" y="354" width="116" height="10" rx="5" fill="#DDE1E4"/>
+  <text x="300" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9AA1A9">Таблетки</text>
+</svg>

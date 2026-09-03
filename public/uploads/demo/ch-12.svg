@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#546A82"/><stop offset="100%" stop-color="#25313E"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#25313E"/><stop offset="100%" stop-color="#546A82"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#F7F8F9"/>
+  <ellipse cx="300" cy="492" rx="150" ry="20" fill="#0D3620" opacity=".07"/>
+  <rect x="316" y="112" width="58" height="42" rx="10" fill="url(#cap)"/>
+  <path d="M232 196h132c30 0 54 24 54 54v182c0 28-22 50-50 50H228c-28 0-50-22-50-50V250c0-30 24-54 54-54Z" fill="url(#g)"/>
+  <path d="M300 154h46v42h-46z" fill="url(#g)"/>
+  <path d="M236 168h56v34h-56a26 26 0 0 1 0-52h10v18h-10a8 8 0 0 0 0 16Z" fill="url(#g)"/>
+  <rect x="200" y="288" width="188" height="122" rx="10" fill="#fff" opacity=".92"/>
+  <rect x="220" y="312" width="148" height="13" rx="6.5" fill="#C9CED3"/>
+  <rect x="220" y="338" width="100" height="10" rx="5" fill="#DDE1E4"/>
+  <rect x="220" y="360" width="124" height="10" rx="5" fill="#DDE1E4"/>
+  <rect x="194" y="230" width="18" height="216" rx="9" fill="#fff" opacity=".24"/>
+  <text x="300" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9AA1A9">Проф. химия</text>
+</svg>

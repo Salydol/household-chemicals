@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F6B3C"/><stop offset="100%" stop-color="#0D3620"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D3620"/><stop offset="100%" stop-color="#1F6B3C"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#F7F8F9"/>
+  <ellipse cx="300" cy="492" rx="150" ry="20" fill="#0D3620" opacity=".07"/>
+  <circle cx="300" cy="300" r="168" fill="url(#g)" opacity=".14"/>
+  <circle cx="300" cy="300" r="130" fill="#fff"/>
+  <g stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M246 268h108l-12 78a16 16 0 0 1-16 14h-52a16 16 0 0 1-16-14z"/>
+    <path d="M240 268h120"/>
+    <path d="M360 250v-28a34 34 0 0 0-68 0"/>
+  </g>
+  <text x="300" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9AA1A9">Генеральная</text>
+</svg>

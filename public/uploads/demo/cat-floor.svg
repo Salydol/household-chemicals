@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3AA0D8"/><stop offset="100%" stop-color="#15577C"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15577C"/><stop offset="100%" stop-color="#3AA0D8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#F7F8F9"/>
+  <ellipse cx="300" cy="492" rx="150" ry="20" fill="#0D3620" opacity=".07"/>
+  <rect x="266" y="96" width="68" height="52" rx="12" fill="url(#cap)"/>
+  <rect x="278" y="144" width="44" height="34" fill="url(#g)"/>
+  <path d="M210 232c0-30 24-54 54-54h72c30 0 54 24 54 54v206c0 25-20 45-45 45H255c-25 0-45-20-45-45V232Z" fill="url(#g)"/>
+  <rect x="224" y="286" width="152" height="118" rx="10" fill="#fff" opacity=".92"/>
+  <rect x="240" y="308" width="120" height="12" rx="6" fill="#C9CED3"/>
+  <rect x="240" y="332" width="86" height="10" rx="5" fill="#DDE1E4"/>
+  <rect x="240" y="354" width="104" height="10" rx="5" fill="#DDE1E4"/>
+  <rect x="230" y="218" width="20" height="230" rx="10" fill="#fff" opacity=".26"/>
+  <text x="300" y="552" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#9AA1A9">Для пола</text>
+</svg>

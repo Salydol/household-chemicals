@@ -3,8 +3,11 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  // Рантайм: подключение через пулер (важно для serverless на Vercel)
+  url       = env("DATABASE_URL")
+  // Схема и миграции: только прямое подключение
+  directUrl = env("DIRECT_URL")
 }
 
 enum ProductStatus {
